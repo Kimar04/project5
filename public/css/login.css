@@ -1,0 +1,76 @@
+.login{
+ 	display:flex;
+ 	flex-wrap:wrap;
+ 	position:absolute;
+ 	top:200px;
+ 	right:300px;
+ 	z-index:108;
+    background-color:#4909FF;
+    text-align:justify;
+    height:500px;
+	width:50%;
+	margin:auto;
+}
+   .login fieldset{
+   margin:0 auto;
+	background-color:rgb(46,0,178,0.3);
+	border-radius: 3em 1.5em;
+	font-size:1em;
+	text-align:center;
+	height:auto; 
+	width:100%;
+	display:block;
+        }
+    .login legend{
+        	font-size:1.2em;
+        	font-weight:2em;
+        }
+.login p{
+	font-weight: bold;
+    	}
+.login label{
+	width:40%;
+	float:left;
+          text-align: right;
+          color: #ffea09;}
+.login p select{
+	color:Ivory;
+}
+.login p select:hover{
+	background-color:#ffea09;
+	color:#088A08;
+}
+.login  p input{
+	display:block;
+	width:90%;
+	border: 2% bold #B2A403;
+	background-color:#4909FF;
+	color:Ivory;
+	margin:2px;
+	font-size:1em;
+	min-width:150px;
+	float:left;
+}
+.login  p input:focus{
+	background-color:#2E00B2;
+	color:#088A08;
+}
+.login  option{
+	background-color:#ffea09;
+	color:Ivory;
+}
+.login option:focus{
+background-color:#2E00B2;
+	color:#088A08;
+}
+        	
+   .login p button{
+	font-size:1.5em;
+	margin:2px;
+	padding:2px;
+	background-color:#ffea09;
+	color:#088A08;
+}
+ @media screen and (max-width:599px){
+
+	 }
